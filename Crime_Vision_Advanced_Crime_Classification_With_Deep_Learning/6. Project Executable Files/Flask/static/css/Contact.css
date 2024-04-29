@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, rgba(255, 0, 0, 0.5), rgba(0, 255, 0, 0.5)), url('static/images/crime_classification_image.jpg') center/cover no-repeat; /* Change to your crime classification image */
+}
+.navbar {
+    background-color: #333;
+    padding: 10px 0;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.navbar a:hover {
+    background-color: #555;
+}
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+p {
+    color: #eee;
+    margin-bottom: 30px;
+}
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.btn:hover {
+    background-color: #0056b3;
+}
+.contact-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+.contact-card h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+.contact-card p {
+    color: #666;
+}
+.helpline-list {
+    margin-top: 20px;
+}
+.helpline-list li {
+    margin-bottom: 10px;
+}
+.helpline-list li strong {
+    color: #007bff;
+}
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+footer p {
+    color: #333;
+    font-size: 14px;
+    margin: 0;
+}
